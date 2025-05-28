@@ -15,7 +15,6 @@ const len = 128;
 
 // Iterations. ~300ms
 const iterations = 12000;
-
 /**
  * Hashes a password with optional `salt`, otherwise
  * generate a salt for `pass` and invoke `fn(err, salt, hash)`.
