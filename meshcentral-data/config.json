@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Ylianst/MeshCentral/master/meshcentral-config-schema.json",
+    "settings": {
+        "cert": "__CERT_HOSTNAME__",
+        "port": __PORT__,
+        "TlsOffload": "__TLSOFFLOAD_IP__",
+        "sessionKey": "__SESSION_KEY__",
+        "wanOnly": true,
+        "mongoDb": "__MONGODB_URL__",
+        "mongoDbName": "__MONGODB_DBNAME__"
+    },
+    "domains": {
+        "": {
+            "title": "Mi Servidor MeshCentral",
+            "title2": "Acceso Remoto",
+            "newAccounts": __ALLOW_NEW_ACCOUNTS__,
+            "_userFilesPath": "/app/meshcentral-files-disabled"
+        }
+    }
+}
